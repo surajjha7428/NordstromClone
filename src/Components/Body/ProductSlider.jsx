@@ -3,8 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./ProductSlider.css"
-import Rating from "react-rating";
-import { space } from "@chakra-ui/react";
+
 
 const ProductSlider = () => {
   const products = [
