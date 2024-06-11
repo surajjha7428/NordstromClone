@@ -1,0 +1,45 @@
+
+ul{
+    /* border: 1px solid red; */
+    /* height: 85px; */
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+   
+
+    list-style-type: none;
+        padding: 0;
+       
+        display: flex;
+        justify-content: space-around;
+}
+ul li{
+
+    font-weight: lighter;
+    
+}
+ul li{
+    position: relative;
+        display: inline-block;
+    
+}
+li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleY(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+li:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+ul li span{
+    color: red;
+}
+

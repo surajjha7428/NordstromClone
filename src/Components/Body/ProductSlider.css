@@ -1,0 +1,365 @@
+
+.product-slider{
+    
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.product-slider {
+    width: 90%;
+    height: 5930px;
+    margin: 0 auto;
+}
+
+.product-card {
+    padding: 10px;
+    height: 350px;
+   
+    /* border: 1px solid black; */
+
+}
+
+
+.product-card img {
+    width: 100%;
+    height: 70%;
+}
+
+.product-card h3 {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: black;
+}
+
+.fa-star,
+.fa-star-o {
+    color: #ffcc00;
+}
+
+.product-slider .rating {
+    color: black;
+    font-size: 11px;
+}
+
+
+
+.Tops{
+    /* border: 1px solid yellow; */
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.Tops h2{
+    color: #191a1b;
+    margin-top: 10px;
+}
+.category {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.tops{
+    /* border: 1px solid red; */
+        height: 90%;
+        width: 22%;
+}
+.tops img {
+    height: 90%;
+    width: 100%;
+
+}
+.tops p{
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+.explore-card img{
+    height: 85%;
+    width: 90%;
+    margin: auto;
+}
+.explore-card{
+    /* margin-top: 50px; */
+    /* border: 1px solid blueviolet; */
+   height: 650px;
+   color: #191a1b;
+    
+}
+.Explore{
+    /* border: 1px solid blue; */
+    height: 700px;
+    width: 100%;
+    justify-content: space-around;
+}
+.explore-card h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 570;
+    margin-left: 20px;
+}
+.explore-card p {
+     
+     font-size: 13px;
+     font-weight: lighter;
+     text-align: center;
+    
+    
+ }
+.Explore h2{
+    font-family:  Arial, sans-serif;
+    margin-left: 20px;
+    color: #191a1b;
+}
+.explore-card p button{
+background-color: black;
+height: 40px;
+width: 100px;
+margin-left: 20px;
+color: azure;
+}
+.Shop{
+background-color: black;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    color: azure;
+}
+.Shop p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.explore-card p{
+    margin-top: 10px;
+}
+.Gifts{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: url(https://n.nordstrommedia.com/it/1bcd937e-8007-4799-b850-243e9db77bbd.png?h=300&w=1600);
+    background-position: 50%;
+}
+.gift{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 30%;
+    margin: auto;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.Btn{
+    /* border: 1px solid green; */
+    height: 90%;
+    width: 45%;
+    margin: auto;
+    background-color: black;
+}
+.Btn p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: lighter;
+}
+.Ena {
+    /* border: 1px solid black; */
+        width: 95%;
+        height: 40px;
+        margin: auto;
+}
+.Ena ul {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left: 0;
+    width: 56%;
+
+}
+.Ena ul li {
+    font-size: 15/px;
+    font-weight: lighter;
+}
+hr {
+    width: 95%;
+    margin: auto;
+}
+.product-card.card{
+height: 400px;
+}
+/* ---------------------Ted Baker London----------------- */
+.ted{
+    border: 1px solid black;
+    height: 170px;
+    width: 95%;
+    margin: auto;
+}
+.ted img{
+    height: 100%;
+    width: 100%;
+}
+.great{
+    margin-top: 50px;
+    font-weight: 700;
+    color: #191a1b;
+    margin-left: 30px;
+
+}
+.items{
+    font-weight: lighter;
+    color: #191a1b;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.threeX{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 98%;
+    margin: auto;
+   
+}
+.threeX img{
+    height: 100%;
+    width: 100%;
+}
+.anni{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 98%;
+    margin: auto;
+    margin-top: 50px;
+}
+.anni img {
+    height: 100%;
+    width: 100%;
+}
+.Image-slider {
+    margin: 20px auto;
+    width: 90%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    /* position: relative; */
+    /* Ensure the slider container has a relative position */
+}
+.Image-slider img{
+    width: 100%;
+    height: 100%;
+}
+.bold-line {
+    /* border-bottom: 2px solid black; */
+    width: 95%;
+    margin: auto;
+}
+.shop{
+    /* border: 1px solid blue; */
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+.shop h3{
+    text-align: center;
+    font-weight: 550;
+    margin-top: 10px;
+}
+.product{
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 80%;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.option{
+    /* border: 1px solid blueviolet; */
+    height: 100%;
+    width: 15%;
+}
+.option img{
+    height: 93%;
+    width: 100%;
+}
+.option h6{
+    text-align: center;
+    font-size: 12px;
+}
+
+.loving{
+    /* border: 1px solid blue; */
+    height: 400px;
+    width: 100%;
+}
+.loving h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.loving h5 {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.pic{
+    /* border: 1px solid gold; */
+    height: 90%;
+    width: 100%;
+}
+.slider-image-container {
+    padding: 5px;
+    box-sizing: border-box;
+}
+.trending{
+    /* border: 1px solid black; */
+    height: 540px;
+    width: 100%;
+    margin-top: 20px;
+}
+.trending h3{
+   color: #191a1b;
+}
+.trending h5 {
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.product-slider .slider{
+    height: 90%;
+    width: 100%;
+}
+.There{
+    /* border: 1px solid blue; */
+    height: 75%;
+    width: 15%;
+
+}
+.There img{
+    height: 100%;
+    width: 100%;
+}
+.last{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.last p{
+font-weight: lighter;
+font-size: 13px;
+color: #191a1b;
+}
+.last h6{
+    font-size: 15px;
+font-weight: 400;
+color: #191a1b;
+margin-top: 10px;
+}

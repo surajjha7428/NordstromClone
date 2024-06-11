@@ -1,0 +1,112 @@
+.first{
+    border: 1px solid green;
+    height: 500px;
+    width: 90%;
+}
+
+.image-slider {
+    margin: 20px auto;
+    width: 90%;
+    /* position: relative; */
+    /* Ensure the slider container has a relative position */
+}
+
+.slider-image {
+    width: 100%;
+    height: auto;
+    
+}
+
+.small-slider {
+    
+    max-height: 200px;
+    /* Set a maximum height for the second slider */
+}
+
+.small-slider-image {
+    height: 150px;
+    /* Adjust the height of the images in the second slider */
+    object-fit: cover;
+    /* Ensure the image covers the entire container */
+   
+}
+
+.slick-prev,
+.slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    top: 50%;
+    
+    transform: translateY(-50%);
+}
+
+.small-slider .slick-prev,
+.small-slider .slick-next {
+    top: calc(50% - 30px);
+    /* Adjust this value to perfectly center the arrows */
+}
+.slick-prev:before,
+.slick-next:before {
+    font-size: 40px;
+    color: black;
+    
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev,
+.slick-next {
+    background: none;
+    border-radius: 50%;
+}
+.Make {
+    /* border: 1px solid blue; */
+    height: 700px;
+    width: 95%;
+    margin: auto;
+    background-image: url(https://i.ibb.co/hFb33y0/Screenshot-2024-05-30-at-3-35-10-AM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.btn{
+    border: 1px solid black;
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 44%;
+}
+.btn h5{
+    text-align: center;
+   margin: 13px;
+   font-size: 12px;
+   font-weight: lighter;
+}
+.Pro{
+    border: 1px solid black;
+        width: 95%;
+        height: 70px;
+        margin: auto;
+}
+.Pro ul {
+            display: flex;
+            width: 96%;
+            justify-content: space-between;
+        }
+.Pro ul li {
+    font-size: 12px;
+    font-weight: bold;
+}
+hr {
+    width: 95%;
+    margin: auto;
+}

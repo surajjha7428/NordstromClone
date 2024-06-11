@@ -1,0 +1,66 @@
+
+.foot{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 100%;
+    background-color: #f0f3f5;
+    display: flex;
+}
+.left{
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    /* border: 1px solid green; */
+        width: 53%;
+        height: 100%;
+        margin-left: 50px;
+        justify-content: space-around;
+}
+.left-one{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 95%;
+    margin-top: 5px;
+}
+.left-one h5{
+    margin-top: 3px;
+    color: black;
+    margin-left: 10px;
+}
+.left-one p{
+    margin-top: 10px;
+    color: #191a1b;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.left-one p {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.left-one p::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #000;
+    transition: width 0.6s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+.left-one p:hover::after {
+    width: 100%;
+    left: 0;
+    background: #000;
+    /* Change color if needed */
+}
